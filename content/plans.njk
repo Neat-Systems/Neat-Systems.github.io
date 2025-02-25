@@ -1,0 +1,13 @@
+---js
+const eleventyNavigation = {
+	key: "Plans",
+	order: 4
+};
+---
+<h1>Check Out Our Plans</h1>
+We offer several packages, each designed to help your organization navigate a different stage of growth. 
+<ul class="plans">
+  {%- for plan in plans -%}
+    <li><strong>{{ plan.name }}</strong> </br>{{plan.benefits}}</li>
+  {%- endfor -%}
+</ul>
