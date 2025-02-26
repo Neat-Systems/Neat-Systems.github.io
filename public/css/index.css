@@ -70,6 +70,9 @@ body {
 	border-style: solid;
 	border-radius: 5px;
 	padding: 2%;
+	background-color: var(--text-color);
+	color: var(--background-color);
+
 }
 ul {
 	text-align: left;
