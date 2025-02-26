@@ -59,6 +59,18 @@ html {
 body {
 	max-width: 60em;
 }
+#plans{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-evenly;
+
+}
+
+.plan{
+	border-style: solid;
+	border-radius: 5px;
+	padding: 2%;
+}
 ul {
 	text-align: left;
 	list-style-type: circle;

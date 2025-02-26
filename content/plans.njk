@@ -6,9 +6,9 @@ const eleventyNavigation = {
 ---
 <h1>Check Out Our Plans</h1>
 <p>We offer several packages, each designed to help your organization navigate a different stage of growth. </p>
-<div column-count=3 class="plans">
+<div ID="plans">
   {%- for plan in plans -%}
-    <p column-span=1><strong>{{ plan.name }}</strong> </br>{{plan.benefits}}</p>
+    <DIV CLASS="plan"> <p column-span=1><strong>{{ plan.name }}</strong> </br>{{plan.benefits}}</p> </DIV>
   {%- endfor -%}
 </div>
 
