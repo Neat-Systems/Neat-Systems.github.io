@@ -14,8 +14,10 @@ const eleventyNavigation = {
         {%- for challenge in plan.challenges -%}
            <li> {{ challenge.challenge }} </li>
         {%- endfor -%}</ul> </br>
-        <p>We can help you with:</p> </br>
-       {{plan.interventions}} </br>    
+        <p>We can help you with:</p> <ul>
+        {%- for intervention in plan.interventions -%}
+           <li> {{ intervention.intervention }} </li>
+        {%- endfor -%}</ul> </br> 
     </DIV>
   {%- endfor -%}
 </div>

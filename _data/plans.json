@@ -12,7 +12,17 @@
           "challenge": "Coming soon!"
         }
       ],
-      "interventions": "Coming soon!"
+      "interventions": [
+        {
+          "intervention": "Coming soon!"
+        },
+        {
+          "intervention": "Coming soon!"
+        },
+        {
+          "intervention": "Coming soon!"
+        }
+      ]
       },  
     {
         "name": "Series A",
@@ -27,7 +37,17 @@
             "challenge": "Coming soon!"
           }
         ],
-        "interventions": "Coming soon!"
+        "interventions": [
+          {
+            "intervention": "Coming soon!"
+          },
+          {
+            "intervention": "Coming soon!"
+          },
+          {
+            "intervention": "Coming soon!"
+          }
+        ]
         },  
     {
         "name": "Series B",
@@ -42,6 +62,16 @@
             "challenge": "Coming soon!"
           }
         ],
-        "interventions": "Coming soon!"
+        "interventions": [
+          {
+            "intervention": "Coming soon!"
+          },
+          {
+            "intervention": "Coming soon!"
+          },
+          {
+            "intervention": "Coming soon!"
+          }
+        ]
         }
   ]
