@@ -1,17 +1,47 @@
 [
     {
       "name": "Seed Round",
-      "challenges": "Coming soon!",
+      "challenges": [
+        {
+          "challenge": "Coming soon!"
+        },
+        {
+          "challenge": "Coming soon!"
+        },
+        {
+          "challenge": "Coming soon!"
+        }
+      ],
       "interventions": "Coming soon!"
       },  
     {
         "name": "Series A",
-        "challenges": "Coming soon!",
+        "challenges": [
+          {
+            "challenge": "Coming soon!"
+          },
+          {
+            "challenge": "Coming soon!"
+          },
+          {
+            "challenge": "Coming soon!"
+          }
+        ],
         "interventions": "Coming soon!"
-        }, 
+        },  
     {
         "name": "Series B",
-        "challenges": "Coming soon!",
+        "challenges": [
+          {
+            "challenge": "Coming soon!"
+          },
+          {
+            "challenge": "Coming soon!"
+          },
+          {
+            "challenge": "Coming soon!"
+          }
+        ],
         "interventions": "Coming soon!"
-        } 
+        }
   ]

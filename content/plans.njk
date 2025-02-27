@@ -10,8 +10,10 @@ const eleventyNavigation = {
   {%- for plan in plans -%}
     <DIV CLASS="plan"> 
         <p><strong>{{ plan.name }}</strong> </p>
-        <p>You might be experiencing:</p> </br>
-       {{plan.challenges}} </br>
+        <p>You might be experiencing:</p> <ul>
+        {%- for challenge in plan.challenges -%}
+           <li> {{ challenge.challenge }} </li>
+        {%- endfor -%}</ul> </br>
         <p>We can help you with:</p> </br>
        {{plan.interventions}} </br>    
     </DIV>
