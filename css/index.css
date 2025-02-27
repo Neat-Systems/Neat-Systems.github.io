@@ -72,6 +72,7 @@ body {
 	padding: 2%;
 	background-color: var(--text-color);
 	color: var(--background-color);
+	max-width: 30%;
 
 }
 ul {
