@@ -56,9 +56,11 @@ body {
 	max-width: 60em;
 }
 /* When the screen is narrow, display plans as a column */
-@media (max-width: 600px) {	
-	.plan{
+@media (width <= 600px) {	
+	#plans .plan{
 		max-width: 100%;
+		min-width: 100%;
+		margin-top: 20px;
 	}
 }
 /* By default, display plans as a row where each plan is no more than a 30% of max width*/
