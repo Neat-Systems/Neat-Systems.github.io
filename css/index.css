@@ -60,7 +60,7 @@ body {
 	#plans .plan{
 		max-width: 100%;
 		min-width: 100%;
-		margin-top: 5%;
+		margin-bottom: 5%;
 	}
 }
 /* By default, display plans as a row where each plan is no more than a 30% of max width*/
