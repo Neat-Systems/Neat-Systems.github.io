@@ -8,7 +8,13 @@ const eleventyNavigation = {
 <p>We offer several packages, each designed to help your organization navigate a different stage of growth. These packages serve as examples of what is likely to be included in an engagement. No matter how large or small your organization is, all engagements start with us getting to know your organization. We will work with you to determine key points of leverage for you to thrive in your next stage of growth. If none of these feel quite right, feel free to reach out to discuss custom packages! </p>
 <div ID="plans">
   {%- for plan in plans -%}
-    <DIV CLASS="plan"> <p column-span=1><strong>{{ plan.name }}</strong> </br>{{plan.benefits}}</p> </DIV>
+    <DIV CLASS="plan"> 
+        <p><strong>{{ plan.name }}</strong> </p>
+        <p>You might be experiencing:</p> </br>
+       {{plan.challenges}} </br>
+        <p>We can help you with:</p> </br>
+       {{plan.interventions}} </br>    
+    </DIV>
   {%- endfor -%}
 </div>
 

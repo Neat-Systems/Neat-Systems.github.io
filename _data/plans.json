@@ -1,14 +1,17 @@
 [
     {
       "name": "Seed Round",
-      "benefits": "Coming soon!"
+      "challenges": "Coming soon!",
+      "interventions": "Coming soon!"
       },  
     {
         "name": "Series A",
-        "benefits": "Coming soon!"
+        "challenges": "Coming soon!",
+        "interventions": "Coming soon!"
         }, 
     {
         "name": "Series B",
-        "benefits": "Coming soon!"
+        "challenges": "Coming soon!",
+        "interventions": "Coming soon!"
         } 
   ]
