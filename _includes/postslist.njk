@@ -1,4 +1,5 @@
 {%- css %}.postlist { counter-reset: start-from {{ (postslistCounter or postslist.length) + 1 }} }{% endcss %}
+<h2 align="right"> <a href="/feed/feed.xml">RSS Feed</a> </h2>
 <ol reversed class="postlist">
 {%- for post in postslist | reverse %}
 	<li class="postlist-item{% if post.url == url %} postlist-item-active{% endif %}">
