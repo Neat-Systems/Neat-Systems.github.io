@@ -1,0 +1,77 @@
+[
+    {
+      "name": "Seed Round",
+      "challenges": [
+        {
+          "challenge": "Difficulty keeping track of everything"
+        },
+        {
+          "challenge": "Executives needing to delegate more"
+        },
+        {
+          "challenge": "Overwhelm — There are so many things to do as you grow!"
+        }
+      ],
+      "interventions": [
+        {
+          "intervention": "Shared updates in a unified location"
+        },
+        {
+          "intervention": "Task visibility that doesn't drag you out of your workflow"
+        },
+        {
+          "intervention": "System adjustments for task-based visibility"
+        }
+      ]
+      },  
+    {
+        "name": "Series A",
+        "challenges": [
+          {
+            "challenge": "Documents have ended up everywhere"
+          },
+          {
+            "challenge": "Different teams use different tools, and not everybody has access"
+          },
+          {
+            "challenge": "Some things have started to get lost in the rapid growth"
+          }
+        ],
+        "interventions": [
+          {
+            "intervention": "Data maps"
+          },
+          {
+            "intervention": "Working agreements"
+          },
+          {
+            "intervention": "Distributed ownership of documents"
+          }
+        ]
+        },  
+    {
+        "name": "Series B",
+        "challenges": [
+          {
+            "challenge": "Not knowing everyone at the company any more"
+          },
+          {
+            "challenge": "Needing some things from specialized teams, but not everything"
+          },
+          {
+            "challenge": "Cross-functional communication is getting hard"
+          }
+        ],
+        "interventions": [
+          {
+            "intervention": "Integrating workflows and systems"
+          },
+          {
+            "intervention": "Self-documenting workflows"
+          },
+          {
+            "intervention": "Clear communication of organization structure"
+          }
+        ]
+        }
+  ]

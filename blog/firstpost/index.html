@@ -220,10 +220,6 @@ pre[class*="language-diff-"] {
 	box-sizing: border-box;
 }
 
-@view-transition {
-	navigation: auto;
-}
-
 html,
 body {
 	padding: 0;
@@ -237,6 +233,31 @@ html {
 }
 body {
 	max-width: 60em;
+}
+/* When the screen is narrow, display plans as a column */
+@media (width <= 600px) {	
+	#plans .plan{
+		max-width: 100%;
+		min-width: 100%;
+		margin-bottom: 5%;
+	}
+}
+/* By default, display plans as a row where each plan is no more than a 30% of max width*/
+#plans{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-evenly;
+
+}
+
+.plan{
+	border-style: hidden;
+	border-radius: 5px;
+	padding: 2%;
+	background-color: var(--text-color);
+	color: var(--background-color);
+	max-width: 30%;
+
 }
 ul {
 	text-align: left;
@@ -471,7 +492,7 @@ ul.links li a {
     display: block;
     text-decoration: none;
 	padding: 20px;
-	border: solid 0.5em --color-gray-90;
+	border: solid 0.5em var(--color-gray-90);
 	font-weight: bold;
   }</style>
 	</head>
@@ -486,6 +507,7 @@ ul.links li a {
 					<li class="nav-item"><a href="/">Home</a></li>
 					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/plans/">Plans</a></li>
 					<li class="nav-item"><a href="/links/">Links</a></li>
 					<li class="nav-item"><a href="/feed/feed.xml">RSS Feed</a></li>
 				</ul>
@@ -517,7 +539,7 @@ ul.links li a {
 			<p> <em> Thanks for reading to the end! We'd love to hear from you. </em> </p>
 		</footer>
 
-		<!-- This page `/blog/firstpost/` was built on 2025-02-25T03:51:28.594Z -->
+		<!-- This page `/blog/firstpost/` was built on 2025-03-01T03:03:23.980Z -->
 		<script type="module" src="/dist/rJ3_G-2ArF.js"></script>
 	</body>
 </html>
