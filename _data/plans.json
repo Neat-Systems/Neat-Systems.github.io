@@ -3,13 +3,13 @@
       "name": "Seed Round",
       "challenges": [
         {
-          "challenge": "Overwhelm: There are so many things to do as you grow!"
+          "challenge": "Difficulty keeping track of everything"
         },
         {
-          "challenge": "Coming soon!"
+          "challenge": "Executives needing to delegate more"
         },
         {
-          "challenge": "Coming soon!"
+          "challenge": "Overwhelm — There are so many things to do as you grow!"
         }
       ],
       "interventions": [
@@ -28,13 +28,13 @@
         "name": "Series A",
         "challenges": [
           {
-            "challenge": "Difficulty keeping track of everything"
+            "challenge": "Documents have ended up everywhere"
           },
           {
-            "challenge": "Coming soon!"
+            "challenge": "Different teams use different tools, and not everybody has access"
           },
           {
-            "challenge": "Coming soon!"
+            "challenge": "Some things have started to get lost in the rapid growth"
           }
         ],
         "interventions": [
@@ -53,13 +53,13 @@
         "name": "Series B",
         "challenges": [
           {
-            "challenge": "Realizing you don't know everyone at the company very well any more"
+            "challenge": "Not knowing everyone at the company any more"
           },
           {
-            "challenge": "Coming soon!"
+            "challenge": "Needing some things from specialized teams, but not everything"
           },
           {
-            "challenge": "Coming soon!"
+            "challenge": "Cross-functional communication is getting hard"
           }
         ],
         "interventions": [
