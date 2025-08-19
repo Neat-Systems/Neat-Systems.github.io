@@ -29,22 +29,22 @@ These all lead to growing pains that employees will often perceive as scattered 
 
 Around 10 to 15 people is often where people first start to notice that they have a knowledge management issue, because here or at some point soon, you can no longer just read every Slack channel or be in all of the meetings and know what's going on. You have to begin organizing conscious forms of communication. In a remote or remote-first environment, this may even include conscious organization of informal communication.
 
-# Series A
+## Series A
 The next inflection point is around the time of a series A round. This is often around 40-50 employees, but I've seen it happen as small as 35 and some organizations make it pretty close to 80 employees before hitting this phase's challenges. You're feeling like your offering is actually solving a problem for clients, and your market is full of potential. You're doubling the size of your team while staying scrappy. You might also be thinking more seriously about compliance certifications to ease the burden of vendor security questionnaires from your prospects and clients, though it's just as common to start feeling that pain closer to series B. At this size, one universal knowledge management system with flat organization/access is no longer sufficient. You have to break things down into chunks for different roles and goals supporting the organization's mission. Even if the information is well organized, it's still too much information, even with a summary, for one person to keep track of as an individual. 
 
-In fully-colocated organizations, this is a scale where you likely need to develop systems for recording what happens in meetings. Remote or multi-office organizations may get away with just recording/transcripting calls, but colocated teams will need to create process to ensure minutes and action items are recorded from in-person meetings. Decisions and decision-making history (including discussions and reasons for outcomes) at this stage will form the core of your organization's future culture.
+In fully-colocated organizations, this is a scale where you likely need to develop systems for recording what happens in meetings. Remote or multi-office organizations may get away with just recordings/transcriptions of calls, but colocated teams will need to create process to ensure minutes and action items are recorded from in-person meetings. Decisions and decision-making history (including discussions and reasons for outcomes) at this stage will form the core of your organization's future culture.
 
-# Series B
+## Series B
 The third inflection point is around your Series B round, typically 80-100 employees. Around 80 to 100 is where you start to have those really specialized teams forming. At earlier stages, employees may have been invested in every high-priority project regardless of team, but at this stage that's not sustainable. At Series B, you have people who don't need a summary of what's in progress with high-priority projects, but do need to know the outcome of recently-completed projects or stages. Here there's a shift from making organizational information digestible to making the information actionable for a diverse range of users throughout the organization. As part of that shift, remote or remote-first organizations likely need to focus on processes for recording concrete action items in a way they may have gotten away with not doing before. 
 
 Colocated organizations are more likely to start thinking about adding additional locations/offices at this stage, and should think about risks and benefits of expansion. If you do plan to expand from fully-colocated to multi-location, beginning to incorporate processes and systems that will support multiple locations at this stage as possible can enable better change management. Even if you stay in one location, at this size you won't run into everyone accidentally on a regular basis any more, because the office is getting too big! Creating opportunities for employees to have those encounters will be critical to maintaining the benefits of colocation.
 
-# Series C
+## Series C
 The final inflection point we'll discuss here is around a Series C round, typically 250-300 people but up to 500 in some cases. As you get into the 250-300 employee range, your organization becomes even more diverse in terms of skill set, and teams further specialize. This is where you begin to need people to take action who have no grounding in the specialty that they are taking action for. For example, security might need something really specific from the sales team or vice versa. The number and criticality of these requests creates a serious and urgent need to improve cross-functional communication. 
 
 This scale is typically out of scope for Neat Systems. At this size organizations really stand to benefit from having one or more full-time operations and information security specialists looking specifically at how the organization stores and processes information.
 
-## Recognizing Success
+# Recognizing Success
 A successful Neat Systems engagement is characterized both by what you don't see and what you do. First, a successful client should see minimal or no _reactive_ compliance emergencies, where the organization is alleged to have violated a standard unknowingly. Reactive compliance emergencies happen when the organization isn't communicating clearly about what needs to be done and acting on shared priorities. Additionally, employees should not feel like they need to leave the system they're working in to acquire information needed to do their job.
 
 Our successful clients won't see reactive compliance emergencies, but what about _proactive_ compliance emergencies? A proactive compliance emergency typically means there's a sales contract on the line, and compliance with unexpected future obligations is required to close that sale. With successful management of the growth problems Neat Systems helps with, several sales metrics should benefit, including decreases in:
@@ -63,5 +63,5 @@ By approaching resolution of business problems as a shared goal to be achieved a
 
 If you'd like to learn more about how Neat Systems can help your organization, email Margaret@ this domain or [book a call](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L)
 
-## Acknowledgements
+# Acknowledgements
 Special thanks to Wes Wheless of [Develop My IP](https://www.developmyip.com/), with whom I discussed this concept before forming the organization and whose guidance was extremely helpful in identifying why I think of seemingly-disparate problems as symptoms of a shared root cause.
