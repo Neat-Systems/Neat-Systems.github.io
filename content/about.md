@@ -8,7 +8,7 @@ const eleventyNavigation = {
 
 Neat Systems is a consultancy helping startups from Seed to C evaluate and optimize their systems to avoid letting growth get in the way of your goals. Founder [Margaret Fero](https://www.margaretfero.com/) began Neat Systems after repeatedly running into the same set of growth-related problems as startups they were involved with in various capacities hit certain thresholds of scale. Margaret ran into many of the same issues as a security professional that they had seen as a technical writer *and* in their support of marketing teams. Rather than continue approaching the same problems from different angles, they decided to offer a systematic approach to treat the root causes of startups' growing pains.
 
-To learn more about how Neat Systems can help your organization, email Margaret@ this domain or [book a call](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L)
+To learn more about how Neat Systems can help your organization, [contact us](https://www.neatsystems.dev/contact) or [book a call](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L)
 
 # About This Site
 
