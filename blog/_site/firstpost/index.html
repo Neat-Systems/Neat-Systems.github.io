@@ -8,7 +8,175 @@
 		<meta name="description" content="Neat Systems is a new organization and will put more here soon.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Neat Systems Website">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
 /* Defaults */
 :root {
 	--font-family: Verdana, Garamond, -apple-system, system-ui, sans-serif;
@@ -340,7 +508,7 @@ ul.links li a {
 					<li class="nav-item"><a href="/about/">About</a></li>
 					<li class="nav-item"><a href="/blog/">Blog</a></li>
 					<li class="nav-item"><a href="/plans/">Plans</a></li>
-					<li class="nav-item"><a href="/links/" aria-current="page">Links</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
 					<li class="nav-item"><a href="/contact/">Contact</a></li>
 				</ul>
 			</nav>
@@ -349,8 +517,22 @@ ul.links li a {
 		<main id="skip">
 			<heading-anchors>
 				
-<h1 id="find-us-online">Find Us Online</h1>
-<ul class="links"><li><a href="https://github.com/Neat-Systems">GitHub</a></li><li><a href="https://www.linkedin.com/in/margaretfero/">Founder Margaret Fero&#39;s LinkedIn Profile</a></li><li><a href="https://hachyderm.io/@MaggieFero">Founder Margaret Fero&#39;s Mastodon Profile</a></li></ul>
+<h1></h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2025-08-20">20 August 2025</time></li>
+</ul>
+
+<p>This is the first post on the new blog of the new website of the new company, Neat Systems! The name comes from a combination of two origins:</p>
+<ul>
+<li>&quot;Neat&quot; as in Tidy, because we hope to help organizations undergoing periods of rapid growth ensure that communication and organization systems are set up to enable, rather than interfere with employees. At several key inflection points, the effectiveness of internal communications (and the ripple effect that has on external communications) can really make or break the employee experience, and in some cases even the organization's ability to accomplish your mission. Neat Systems strives to help you find the patterns that work and strip away the ones that don't, so your effort goes to changing the world instead of changing between tabs.</li>
+<li>&quot;Neat&quot; as in Cool, because we just think it's neat! We don't believe there is any one-size-fits-all approach to communicating, especially in rapidly growing businesses. No two hockey sticks are exactly alike. We want to learn about your organization's unique approach and advantages, so effective communication feels natural rather than restrictive.</li>
+</ul>
+<p>Plenty more information about our approach, our offerings, and our work so far will be coming soon. For now, welcome to Neat Systems!</p>
+
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/blog/firstpost/">Hello, World!</a></li>
+</ul>
+<br><p> Like this post? Subscribe to our <a href="/feed/feed.xml">RSS Feed</a>! </p>
 
 			</heading-anchors>
 		</main>
@@ -359,7 +541,7 @@ ul.links li a {
 			<p> <em> Thanks for reading to the end! We'd love to [hear from you](https://www.neatsystems.dev/contact). </em> </p>
 		</footer>
 
-		<!-- This page `/links/` was built on 2025-08-21T18:48:38.290Z -->
+		<!-- This page `/blog/_site/firstpost/` was built on 2025-08-20T02:01:49.510Z -->
 		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
