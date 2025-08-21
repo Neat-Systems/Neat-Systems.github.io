@@ -1,3 +1,4 @@
+---
 title: Growth Challenges at VC Scale
 description: This post describes the core VC funding rounds Neat Systems can help with, as well as a few common growth-related startup communication and information security problems at each round.
 date: 2025-08-20

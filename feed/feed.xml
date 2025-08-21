@@ -5,21 +5,17 @@
   <subtitle>Making your systems tidy? We just think that&#39;s neat!</subtitle>
   <link href="https://neatsystems.dev/feed/feed.xml" rel="self" />
   <link href="https://neatsystems.dev/" />
-  <updated>2025-08-21T19:30:45Z</updated>
+  <updated>2025-08-20T00:00:00Z</updated>
   <id>https://neatsystems.dev/</id>
   <author>
     <name>Neat Systems</name>
   </author>
   <entry>
-    <title></title>
+    <title>Growth Challenges at VC Scale</title>
     <link href="https://neatsystems.dev/blog/vc-rounds-growth-challenges/" />
-    <updated>2025-08-21T19:30:45Z</updated>
+    <updated>2025-08-20T00:00:00Z</updated>
     <id>https://neatsystems.dev/blog/vc-rounds-growth-challenges/</id>
-    <content type="html">&lt;h2 id=&quot;title-growth-challenges-at-vc-scale-description-this-post-describes-the-core-vc-funding-rounds-neat-systems-can-help-with-as-well-as-a-few-common-growth-related-startup-communication-and-information-security-problems-at-each-round-date-2025-08-20-tags-venture-capital-scaling-growth-challenges&quot;&gt;title: Growth Challenges at VC Scale
-description: This post describes the core VC funding rounds Neat Systems can help with, as well as a few common growth-related startup communication and information security problems at each round.
-date: 2025-08-20
-tags: venture capital, scaling, growth challenges&lt;/h2&gt;
-&lt;p&gt;Neat Systems believes that building a sustainable organization ready to thrive in times of rapid growth requires a holistic approach to business problems. The business problems and subject areas on which we focus are often separated from each other or thought of as disparate disciplines, including technical communication, marketing, and information security. By focusing on the flow of information through these interrelated systems, many seemingly-separate problems can be resolved by treating a shared root cause. Crucially, some of these root causes are natural and inherent aspects of achieving funders&#39; common goals for venture capital rounds. As such, they can&#39;t be prevented without also blocking growth.&lt;/p&gt;
+    <content type="html">&lt;p&gt;Neat Systems believes that building a sustainable organization ready to thrive in times of rapid growth requires a holistic approach to business problems. The business problems and subject areas on which we focus are often separated from each other or thought of as disparate disciplines, including technical communication, marketing, and information security. By focusing on the flow of information through these interrelated systems, many seemingly-separate problems can be resolved by treating a shared root cause. Crucially, some of these root causes are natural and inherent aspects of achieving funders&#39; common goals for venture capital rounds. As such, they can&#39;t be prevented without also blocking growth.&lt;/p&gt;
 &lt;p&gt;We use VC rounds to measure organization scale because most investors share certain objectives as outcomes for each stage of growth. Those objectives are often linked to types of organizational change that require shifts in information storage and communication patterns. They also correspond directly to the parts of process effectiveness most critical to streamline at each stage of growth.&lt;/p&gt;
 &lt;h1 id=&quot;the-first-growth-point-seed-stage&quot;&gt;The First Growth Point: Seed Stage&lt;/h1&gt;
 &lt;p&gt;The first growth inflection point is around a seed stage VC funding round, often around 10-15 employees. At this stage, especially for B2B SaaS, your CTO and other non-sales leaders often begin paying attention to the compliance and legal requirements for selling into larger organizations. You&#39;re working towards product-market fit, and you may have a not-just-founders team now. You&#39;re possibly starting to look into SOC 2 or similar to unlock access to enterprise clients. Depending on how heavily-regulated your industry is, compliance requirements may shift at any stage of the organization&#39;s development. Across all sectors, though, this tends to be the first time that your organization encounters an externally-driven need to have documentation around certain subjects. The external pressure often results in an organization developing documentation that does not align to actual processes or policies as used in people&#39;s daily work.&lt;/p&gt;
