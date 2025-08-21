@@ -1,5 +1,5 @@
 export default {
-	title: "Neat Systems Website",
+	title: "Neat Systems",
 	url: "https://neatsystems.dev",
 	language: "en",
 	description: "Neat Systems is a new organization and will put more here soon.",
