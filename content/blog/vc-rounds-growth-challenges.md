@@ -44,23 +44,9 @@ The final inflection point we'll discuss here is around a Series C round, typica
 
 This scale is typically out of scope for Neat Systems. At this size, organizations really stand to benefit from having one or more full-time operations and information security specialists looking at how the organization stores and processes information.
 
-# Recognizing Success
+# Conclusion
 
-A successful Neat Systems engagement is characterized both by what you don't see and what you do. First, a successful client should see minimal or no _reactive_ compliance emergencies, where someone alleges that the organization violated a standard with which you intended to comply. Reactive compliance emergencies happen when the organization isn't communicating clearly about what needs to be done and acting on shared priorities. Additionally, employees should not feel like they need to leave the system they're working in to acquire information needed to do their job.
-
-Our successful clients won't see reactive compliance emergencies, but what about _proactive_ compliance emergencies? A proactive compliance emergency typically means there's a sales contract on the line, and you must agree to comply with new future obligations to close that sale. With successful management of the growth problems Neat Systems helps with, several sales metrics should benefit, including decreases in:
-- mean time to close
-- number of cycles on Vendor Security Questionnaires (VSQs), especially compliance and information management questions, and
-- differences in your sales funnel based on organization size at the phase of the sales cycle where your industry handles compliance and information management considerations.
-Mean time to close and cycles on VSQs speak for themselves, but that last one can be trickier. Different verticals handle compliance and information management at different stages of the sales cycle. Whenever that is for your clients, sales teams commonly suffer extra delays at that stage as the organization grows. With successful implementation of Neat Systems recommendations, those delays should be minimized to let sales teams move through the entire cycle without obstruction from (or needing to obstruct) other parts of the organization.
-
-Most importantly, Neat Systems seeks to improve your employee experience and productivity by decreasing repeat work and friction. Even as you grow, employees should consistently feel like they:
-- have the information needed to do their job.
-- feel confident updating processes, whether directly or with their team.
-- know when and how to update processes they use or influence.
-- know where and how to store information safely, and without much effort. The easiest way should be the right way.
-
-By approaching resolution of business problems as a shared goal to be achieved as a team, organizations can optimize every employee's effort for a better work experience and a more successful business. 
+Whether your organization is just starting to contemplate a seed or feeling nearly ready for your C, organizing your business to support your funders' goals is critical to your ability to scale and achieve the founders' mission. 
 
 If you'd like to learn more about how Neat Systems can help your organization, email Margaret@ this domain or [book a call](https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L)
 
