@@ -26,7 +26,7 @@ A successful Neat Systems engagement is characterized both by what you don't see
 
 Our successful clients won't see reactive compliance emergencies, but what about _proactive_ compliance emergencies? A proactive compliance emergency typically means there's a sales contract on the line, and you must agree to comply with new future obligations to close that sale. With successful management of the growth problems Neat Systems helps with, several sales metrics should benefit, including decreases in:
 
--   mean time to close
+-   mean time to close,
 -   number of cycles on Vendor Security Questionnaires (VSQs), especially compliance and information management questions, and
 -   differences in your sales funnel based on organization size at the phase of the sales cycle where your industry handles compliance and information management considerations. Mean time to close and cycles on VSQs speak for themselves, but that last one can be trickier. Different verticals handle compliance and information management at different stages of the sales cycle. Whenever that is for your clients, sales teams commonly suffer extra delays at that stage as the organization grows. With successful implementation of Neat Systems recommendations, those delays should be minimized to let sales teams move through the entire cycle without obstruction from (or needing to obstruct) other parts of the organization.
 
