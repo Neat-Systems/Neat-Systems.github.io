@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="L0eInXHvxim4sbRpPrVdk10J1t7tRtzJ8FBP1suld9s">
+		<title>How We Help</title>
+		<meta name="description" content="This post describes the Neat Systems approach to solving many common growth-related startup communication and information security problems, treating them at the shared root.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Neat Systems Website">
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: Verdana, Garamond, -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #544E83;
+	--color-gray-50: #5B8E7D;
+	--color-gray-90: #17255A;
+
+	--background-color: #FCDE9C;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #544E83;
+	--text-color-link-active: #5B8E7D;
+	--text-color-link-visited: #2A4139;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #5B8E7D;
+		--color-gray-50: #544E83;
+		--color-gray-90: #FCDE9C;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #679E8c;
+		--text-color-link-active: #544E83;
+		--text-color-link-visited: #E84855;
+
+		--background-color: #131f49;
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+/* When the screen is narrow, display plans as a column */
+@media (width <= 600px) {	
+	#plans .plan{
+		max-width: 100%;
+		min-width: 100%;
+		margin-bottom: 5%;
+	}
+}
+/* By default, display plans as a row where each plan is no more than a 30% of max width*/
+#plans{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-evenly;
+
+}
+
+.plan{
+	border-style: hidden;
+	border-radius: 5px;
+	padding: 2%;
+	background-color: var(--text-color);
+	color: var(--background-color);
+	max-width: 30%;
+
+}
+ul {
+	text-align: left;
+	list-style-type: circle;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 3px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul.links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul.links li {
+	text-align: center;
+}
+ul.links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em var(--color-gray-90);
+	font-weight: bold;
+  }</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link">Neat Systems Website</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/">Home</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/plans/">Plans</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<p>Neat Systems believes that building a sustainable organization ready to thrive in times of rapid growth requires a holistic approach to business problems. The business problems and subject areas on which we focus are often thought of as disparate disciplines, separated into technical communication, marketing, and information security. By calling attention to the flow of information through these interrelated systems, many seemingly-separate problems can be resolved by treating a shared root cause. Crucially, some of these root causes are natural and inherent aspects of achieving funders' common goals for venture capital rounds. As such, these problems can't be avoided without also obstructing growth.</p>
+<p>This post outlines some of the common growth-related startup communication and information storage problems that arise around growth inflection points roughly corresponding to common venture capital (VC) funding rounds. For each scale, we'll talk a little about a shared root cause of organizational systems breakdown common at that phase. Some symptoms will manifest differently for fully-remote or remote-first organizations than for organizations with some office presence on a weekly basis or more. In those cases, we'll raise expected differences at a high level.</p>
+<p>Neat Systems helps organizations starting to notice that, as you grow, some information is where it doesn't belong and other information has gone missing. With scale comes organizational chaos that you must streamline to avoid letting growth get in the way of your goals. If you've started a company before, you might recognize when the growing pains you experienced last time are starting to arise again. You've got the perfect opportunity to anticipate the full pain of those burgeoning problems before they come to full fruition. If it's your first startup, congratulations! Your proactive planning to grow mindfully will pay off both metaphorically and literally.</p>
+<p>Neat Systems focuses on how your organization manages information: making sure information is exactly where it needs to be, and nowhere else. This may involve:</p>
+<ul>
+<li>Setting up communication structures that empower employees to share information appropriately.</li>
+<li>Systems-thinking-driven process analysis to determine how well particular working patterns are serving you.</li>
+<li>Tactical work, like creating or improving documentation, automating organizational maintenance and communication processes, or introducing compliance-style controls and automating remediation.
+The bulk of this work, however, is often evaluating how the overall patterns your organization is setting align to your values and mission.</li>
+</ul>
+<p>Traditionally, this work may have been driven by an early full-time employee (FTE) in one or more of these different disciplines who focused primarily on the impact within that discipline. In the current funding environment, many organizations seek to delay this foundational work until there's capacity to dedicate FTE time to it. However, this is not the kind of optional project that can be pushed indefinitely into the future with no penalty. It gets worse and harder as an organization grows, and hampers your organization's effectiveness in the meanwhile.</p>
+<p>If you're not going to push cultural and communication systems work into the future and you don't have capacity to invest heavily in it now, though, prioritization becomes critical. I've chosen VC rounds as stand-ins for scale here because investors share certain objectives as outcomes for each stage of growth, and those objectives are often intertwined with the types of organizational changes that require shifts in information storage and communication patterns. These investor objectives correspond directly to the parts of process effectiveness most critical to streamline at each stage of growth. In case you're not yet familiar with VC rounds, I've also tried to include a common employee count range for each phase. The employee counts are variable, and should only be used as a general reference.</p>
+<h1 id="the-first-growth-point-seed-stage">The First Growth Point: Seed Stage</h1>
+<p>The first growth inflection point is around a seed stage VC funding round, often around 10-15 employees. At this stage, especially for B2B SaaS, your CTO and other non-sales leaders often begin paying attention to the compliance and legal requirements for selling into larger organizations. You have a not-just-founders team now and you're working towards product-market fit. You're possibly starting to look into SOC 2 or similar to unlock access to enterprise clients. Depending on how heavily-regulated your industry is, compliance requirements may shift significantly sooner or later in the organization's development. Across all sectors, though, this tends to be the first time that your organization has encountered an externally-driven need to have documentation around certain subjects. The external pressure often results in an organization developing documentation that does not align to actual processes or policies as used in people's daily work.</p>
+<p>When your organization develops documentation that does not reflect the organization's actual culture, you create cultural drift over time. New hires often can't tell the difference between documentation that has been created for actual reference and documentation was created only to fulfill a compliance obligation that nobody was actually using. Also, as your organization reaches this stage of growth, executives tend to be less hands-on as you begin to have employees who can do more of the day-to-day building, selling, and fixing of the product or service. This makes it harder to spot undesired working practices than when the CEO was in every meeting, able to easily keep track of everyone's work practices because they were directly involved in every project.</p>
+<p>These all lead to growing pains that employees will often perceive as scattered problems, but that really point at a shift in the organization away from a unified way of viewing the world and handling tasks, towards a disperate collection of task processes. This is an important sign that you're starting to grow! The organization is no longer one or two people, but its own being. However, dealing with discrepancies sooner lets you better optimize productivity and achieve a healthy, working relationship with less of the frustration that comes from learning that a teammate has not been using the process you intended.</p>
+<p>Around 10 to 15 people is often where people first start to notice that they have a knowledge management issue, because here or at some point soon, you can no longer just read every Slack channel and know what's going on. You can no longer just be in all of the meetings and know what's going on. You have to begin organizing conscious forms of communication.</p>
+<h1 id="series-a">Series A</h1>
+<p>The next inflection point is around the time of a series A round. This is often around 40-50 employees, but I've seen it happen as small as 35 and some orgazniations make it pretty close to 80 employees before hitting this phase's challenges. You're feeling like your offering is actually solving a problem for clients, and your market is full of potential. You're doubling the sizeo of your team while staying scrappy. You might also be thinking more seriously about compliance certifications to ease the burden of vendor security questionnaires from your prospects and clients, though it's just as common to start feeling that pain closer to series B. At this size, one set of knowledge management is no longer sufficient. You have to break things down into chunks, because even if the information is well organized, it's still too much information, even with a summary, and you can't keep track of all of those things as an individual.</p>
+<h1 id="series-b">Series B</h1>
+<p>The third inflection point is around your Series B round, typically 80-100 employees. Around 80 to 100 is where you start to have those really specialized teams forming. And so you have people who are working on something where other people don't need to care about a summary of what's going on so much as the outcome of what's going on. And so that's shift from making the information digestible to making the information feel actionable.</p>
+<h1 id="series-c">Series C</h1>
+<p>The final inflection point we'll discuss here is around a Series C round, typically 250-300 people but up to 500 in some cases. And then as you get into that like 250, 300 ish range, that's when you're having a little bit more diversity in terms of skill set and also further specialization. And so you often need people to take action who have no grounding in the specialty that they are taking action on the basis of, for example, you might have something really specific that the security team needs from sales or vice versa, and that's where you need to start getting better cross functional communication, really. This scale is out of scope for Neat Systems, because at this size organizations really stand to benefit from having one or more full-time operations and/or information security specialists looking specifically at how the organization stores and processes information.</p>
+<h2 id="in-remote-environments-vs-office-environments">In remote environments VS office environments</h2>
+<ul>
+<li>remote requires informal communications to be systematized, or you'll see early problems</li>
+<li>office environments hit a harder inflection point when you no longer see everyone in the office regularly without trying</li>
+<li>Both cases come with some risk of backchanneling, but those backchannels look different depending on the org structure</li>
+</ul>
+<h2 id="continuums-that-shift-over-time">Continuums that shift over time</h2>
+<ul>
+<li>general to specialized responsibilities and skills</li>
+<li>one to many stakeholders</li>
+<li>synchronous to async decision-making</li>
+<li>centralized to distributed/delegated responsibility</li>
+</ul>
+<h2 id="recognizing-success">Recognizing Success</h2>
+<ul>
+<li>Minimal to no reactive compliance emergencies (allegations of violations)</li>
+<li>The only time organizations have proactive compliance emergencies is when there's a sales contract on the line. Look at your sales contracts: mean time to close, differences in your sales funnel based on organization size at the phase of the sales cycle where your industry handles compliance and information management considerations, and number of cycles on compliance and information management questions should all decrease if this is implemented successfully</li>
+</ul>
+<p>Within the organization, employees should feel like</p>
+<ul>
+<li>they have the information needed to do their job</li>
+<li>they rarely if ever need to leave the system they're working in to acquire that information</li>
+<li>they feel confident updating processes, whether directly or with their team, and know when and how to do so</li>
+<li>they know where and how to store information safely, and without much effort</li>
+</ul>
+<h2 id="influences-and-citations">Influences and Citations</h2>
+<p>Where these refer to common concepts, I've chosen a representative explanation aligned with my understanding.</p>
+<ul>
+<li><a href="https://www.theatlantic.com/family/archive/2021/05/robin-dunbar-explains-circles-friendship-dunbars-number/618931/">Circles of Friendship</a>, a more refined/detailed version of Dunbar's Number</li>
+<li><a href="https://instituteprojectmanagement.com/blog/the-5-stages-of-team-development/">Tuckman's Stages of Team Development</a></li>
+<li>James Currier of NFX on <a href="https://www.youtube.com/watch?v=HdnXuKi_2Zw">Network Effects</a></li>
+<li><a href="https://blog.saasholic.com/p/venture-capital-series-funding-a-b-c-z">SaaSholic's Blog Post on</a> and subsequently many conversations with local and visiting VCs about business goals of funding rounds</li>
+</ul>
+<h1 id="acknowledgements">Acknowledgements</h1>
+<p>Special thanks to Wes Wheless of <a href="https://www.developmyip.com/">Develop My IP</a>, with whom I discussed this concept before forming the organization and whose guidance was extremely helpful in identifying why I think of seemingly-disparate problems as symptoms of a shared root cause.</p>
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p> <em> Thanks for reading to the end! We'd love to hear from you. </em> </p>
+		</footer>
+
+		<!-- This page `/how-we-help-whitepaper/` was built on 2025-08-21T04:16:24.230Z -->
+		<script type="module" src="/dist/xbxy_EL6cU.js"></script>
+	</body>
+</html>
