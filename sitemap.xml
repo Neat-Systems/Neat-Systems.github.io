@@ -17,7 +17,7 @@
 	</url>
 	
 	<url>
-		<loc>https://neatsystems.dev/blog/firstpost/</loc>
+		<loc>https://neatsystems.dev/blog/hello-world/</loc>
 		<lastmod>2025-02-21</lastmod>
 	</url>
 	
@@ -33,21 +33,16 @@
 	
 	<url>
 		<loc>https://neatsystems.dev/about/</loc>
-		<lastmod>2025-08-19</lastmod>
+		<lastmod>2025-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://neatsystems.dev/contact/</loc>
-		<lastmod>2025-08-20</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://neatsystems.dev/blog/_site/firstpost/</loc>
-		<lastmod>2025-08-20</lastmod>
+		<lastmod>2025-08-21</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://neatsystems.dev/feed/feed.xml</loc>
-		<lastmod>2025-08-20</lastmod>
+		<lastmod>2025-08-21</lastmod>
 	</url>
 </urlset>
