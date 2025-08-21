@@ -11,6 +11,7 @@
     <name>Neat Systems</name>
   </author>
   <entry>
+<<<<<<< HEAD
     <title>Growth Challenges at VC Scale</title>
     <link href="https://neatsystems.dev/blog/vc-growth-challenges/" />
     <updated>2025-08-20T00:00:00Z</updated>
@@ -39,6 +40,8 @@
 </content>
   </entry>
   <entry>
+=======
+>>>>>>> 9eb0e49 (Rebuild to eliminate duplicate blog post)
     <title>Hello, World!</title>
     <link href="https://neatsystems.dev/blog/hello-world/" />
     <updated>2025-02-21T00:00:00Z</updated>
