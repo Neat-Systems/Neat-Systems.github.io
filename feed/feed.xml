@@ -11,10 +11,18 @@
     <name>Neat Systems</name>
   </author>
   <entry>
+<<<<<<< HEAD
     <title>How We Help</title>
     <link href="https://neatsystems.dev/blog/how-we-help/" />
     <updated>2025-08-21T00:00:00Z</updated>
     <id>https://neatsystems.dev/blog/how-we-help/</id>
+=======
+<<<<<<< HEAD
+    <title>Growth Challenges at VC Scale</title>
+    <link href="https://neatsystems.dev/blog/vc-growth-challenges/" />
+    <updated>2025-08-20T00:00:00Z</updated>
+    <id>https://neatsystems.dev/blog/vc-growth-challenges/</id>
+>>>>>>> f2c4227 (Rebuild to eliminate duplicate blog post)
     <content type="html">&lt;p&gt;Neat Systems believes that building a sustainable organization ready to thrive in times of rapid growth requires a holistic approach to business problems. The business problems and subject areas on which we focus are often separated from each other or thought of as disparate disciplines, including technical communication, marketing, and information security. By focusing on the flow of information through these interrelated systems, many seemingly-separate problems can be resolved by treating a shared root cause. Crucially, some of these root causes are natural and inherent aspects of achieving funders&#39; common goals for venture capital rounds. As such, they can&#39;t be prevented without also blocking growth.&lt;/p&gt;
 &lt;p&gt;Common growth-related startup communication and information storage problems arise around growth inflection points roughly corresponding to common venture capital (VC) funding rounds. For each scale, a handful of shared root causes contribute to the majority of organizational systems breakdown common at that phase. Some symptoms will manifest differently for fully-remote or remote-first organizations than for organizations with some office presence on a weekly basis or more. For more on the challenges you can expect at each stage of growth, check out our blog &lt;a href=&quot;https://neatsystems.dev/blog/vc-rounds-growth-challenges/&quot;&gt;Growth Challenges at VC Scale&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Neat Systems helps organizations starting to notice that, as you grow, some information is where it doesn&#39;t belong and other information has gone missing. With scale comes organizational chaos that you must streamline to avoid letting growth get in the way of your goals. If you&#39;ve started a company before, you might recognize when the growing pains you experienced last time are starting to arise again. You&#39;ve got the perfect opportunity to anticipate the future pain of those burgeoning problems before they come to full fruition. If it&#39;s your first startup, congratulations! Your proactive planning to grow mindfully will pay off both metaphorically and literally. As you grow, you either know or are about to learn that your organization will undergo a number of shifts in the years to come. Initially, a small number of people (the founders) hold shared responsibility for everything and are deeply involved in all decisions. Over time, your organization will expand to include more people with specialized skills and responsibilities distributed throughout the larger group.&lt;/p&gt;
@@ -62,6 +70,8 @@ Mean time to close and cycles on VSQs speak for themselves, but that last one ca
 </content>
   </entry>
   <entry>
+=======
+>>>>>>> 9eb0e49 (Rebuild to eliminate duplicate blog post)
     <title>Hello, World!</title>
     <link href="https://neatsystems.dev/blog/hello-world/" />
     <updated>2025-02-21T00:00:00Z</updated>
