@@ -12,12 +12,15 @@
   </author>
   <entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <title>How We Help</title>
     <link href="https://neatsystems.dev/blog/how-we-help/" />
     <updated>2025-08-21T00:00:00Z</updated>
     <id>https://neatsystems.dev/blog/how-we-help/</id>
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> bed10a0 (Put back unintentionally-deleted blog post)
     <title>Growth Challenges at VC Scale</title>
     <link href="https://neatsystems.dev/blog/vc-growth-challenges/" />
     <updated>2025-08-20T00:00:00Z</updated>
@@ -70,8 +73,6 @@ Mean time to close and cycles on VSQs speak for themselves, but that last one ca
 </content>
   </entry>
   <entry>
-=======
->>>>>>> 9eb0e49 (Rebuild to eliminate duplicate blog post)
     <title>Hello, World!</title>
     <link href="https://neatsystems.dev/blog/hello-world/" />
     <updated>2025-02-21T00:00:00Z</updated>
