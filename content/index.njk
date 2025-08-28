@@ -11,6 +11,27 @@ const numberOfLatestPostsToShow = 3;
 <p>If you're a young organization looking to grow, check out our <a href="blog.njk">blog</a>, <a href="contact.md">contact us</a>, or <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L" target="_blank">book a call</a> (external link opens in new tab).</p> 
 <p>If something on this website is useful to you, please let us know. As we develop our offerings, community feedback will play a huge role in the shape of the resources we provide in the future.</p>
 
+<h1>Check Out Our Plans</h1>
+<p>We offer several packages, each designed to help your organization navigate a different stage of growth. These packages serve as examples of what is likely to be included in an engagement. No matter how large or small your organization is, all engagements start with us getting to know your organization. We will work with you to determine key points of leverage for you to thrive in your next stage of growth. If none of these feel quite right, feel free to reach out to discuss custom packages! </p>
+<div ID="plans">
+  {%- for plan in plans -%}
+    <DIV CLASS="plan"> 
+        <p><strong>{{ plan.name }}</strong> </p>
+        <p>You might be experiencing:</p> <ul>
+        {%- for challenge in plan.challenges -%}
+           <li> {{ challenge.challenge }} </li>
+        {%- endfor -%}</ul> </br>
+        <p>We can help you with:</p> <ul>
+        {%- for intervention in plan.interventions -%}
+           <li> {{ intervention.intervention }} </li>
+        {%- endfor -%}</ul> </br> 
+    </DIV>
+  {%- endfor -%}
+</div>
+
+<h2> Growing a Nonprofit?</h2>
+<p>We understand that nonprofits experience many of the same inflection points in your growth cycle as for-profit startups, but that you may not have as many financial resources to navigate these challenging circumstances. Whether your growth comes from an increase in individual donations, a significant grant or bequest, or simply gradual expansion over time, we offer significant discounts to help you navigate organizational changes while keeping your program dollars directed towards your mission as much as possible.</p>
+
 {# List every content page in the project #}
 {#
 <ul>
