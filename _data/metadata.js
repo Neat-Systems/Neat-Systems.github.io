@@ -6,6 +6,6 @@ export default {
 	author: {
 		name: "Margaret Fero of Neat Systems",
 		email: "NeatSystemsWebsite@NeatSystems.dev",
-		url: "https://neatsystems.dev/"
+		url: "https://neatsystems.dev/about/"
 	}
 }
