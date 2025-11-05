@@ -3,13 +3,13 @@
       "name": "Seed Round",
       "challenges": [
         {
-          "challenge": "Difficulty keeping track of everything"
+          "challenge": "I can't keep track of everything any more"
         },
         {
-          "challenge": "Executives needing to delegate more"
+          "challenge": "Executives need to delegate more"
         },
         {
-          "challenge": "Overwhelm — There are so many things to do as you grow!"
+          "challenge": "I'm overwhelmed — There are so many things to do and we're growing so quickly!"
         }
       ],
       "interventions": [
@@ -53,10 +53,10 @@
         "name": "Series B",
         "challenges": [
           {
-            "challenge": "Not knowing everyone at the company any more"
+            "challenge": "I don't know everyone at the company any more"
           },
           {
-            "challenge": "Needing some things from specialized teams, but not everything"
+            "challenge": "I need some things from specialized teams, but not everything; I don't have time to filter through all their info"
           },
           {
             "challenge": "Cross-functional communication is getting hard"
