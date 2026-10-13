@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="google-site-verification" content="L0eInXHvxim4sbRpPrVdk10J1t7tRtzJ8FBP1suld9s">
+		<title>Neat Systems</title>
+		<meta name="description" content="Neat Systems is a consultancy helping startups from Seed to C evaluate and optimize their systems to avoid letting growth get in the way of your goals.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Neat Systems">
+		
+		<style>/* This is an arbitrary CSS string added to the bundle */
+/* Defaults */
+:root {
+	--font-family: Verdana, Garamond, -apple-system, system-ui, sans-serif;
+	--font-family-monospace: Consolas, Menlo, Monaco, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Courier New, Courier, monospace;
+}
+
+/* Theme colors */
+:root {
+	--color-gray-20: #544E83;
+	--color-gray-50: #5B8E7D;
+	--color-gray-90: #17255A;
+
+	--background-color: #FCDE9C;
+
+	--text-color: var(--color-gray-90);
+	--text-color-link: #544E83;
+	--text-color-link-active: #5B8E7D;
+	--text-color-link-visited: #2A4139;
+
+	--syntax-tab-size: 2;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color-gray-20: #5B8E7D;
+		--color-gray-50: #544E83;
+		--color-gray-90: #FCDE9C;
+
+		/* --text-color is assigned to --color-gray-_ above */
+		--text-color-link: #679E8c;
+		--text-color-link-active: #544E83;
+		--text-color-link-visited: #E84855;
+
+		--background-color: #131f49;
+
+		.hs-form-frame {
+			background-color: #FCDE9C;
+		} 
+	}
+}
+
+
+/* Global stylesheet */
+* {
+	box-sizing: border-box;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0 auto;
+	font-family: var(--font-family);
+	color: var(--text-color);
+	background-color: var(--background-color);
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	max-width: 60em;
+}
+/* When the screen is narrow, display plans as a column */
+@media (width <= 600px) {	
+	#plans .plan{
+		max-width: 100%;
+		min-width: 100%;
+		margin-bottom: 5%;
+	}
+}
+/* By default, display plans as a row where each plan is no more than a 30% of max width*/
+#plans{
+	display: flex;
+	flex-flow: row wrap; 
+	justify-content: space-evenly;
+
+}
+
+.plan{
+	border-style: hidden;
+	border-radius: 5px;
+	padding: 2%;
+	background-color: var(--text-color);
+	color: var(--background-color);
+	max-width: 30%;
+
+}
+ul {
+	text-align: left;
+	list-style-type: circle;
+}
+
+/* https://www.a11yproject.com/posts/how-to-hide-content/ */
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+/* Fluid images via https://www.zachleat.com/web/fluid-images/ */
+img,
+video,
+iframe {
+  max-width: 100%;
+}
+img[width][height] {
+  height: auto;
+}
+img[src$=".svg"] {
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+p {
+	line-height: 1.5;
+}
+
+li {
+	line-height: 1.5;
+}
+
+a[href] {
+	color: var(--text-color-link);
+}
+a[href]:visited {
+	color: var(--text-color-link-visited);
+}
+a[href]:hover,
+a[href]:active {
+	color: var(--text-color-link-active);
+}
+
+main,
+footer {
+	padding: 1rem;
+}
+main :first-child {
+	margin-top: 0;
+}
+
+header {
+	border-bottom: 3px dashed var(--color-gray-20);
+}
+header:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.links-nextprev {
+	display: flex;
+	justify-content: space-between;
+	gap: .5em 1em;
+	list-style: "";
+	border-top: 1px dashed var(--color-gray-20);
+	padding: 1em 0;
+}
+.links-nextprev > * {
+	flex-grow: 1;
+}
+.links-nextprev-next {
+	text-align: right;
+}
+
+table {
+	margin: 1em 0;
+}
+table td,
+table th {
+	padding-right: 1em;
+}
+
+pre,
+code {
+	font-family: var(--font-family-monospace);
+}
+pre:not([class*="language-"]) {
+	margin: .5em 0;
+	line-height: 1.375; /* 22px /16 */
+	-moz-tab-size: var(--syntax-tab-size);
+	-o-tab-size: var(--syntax-tab-size);
+	tab-size: var(--syntax-tab-size);
+	-webkit-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	direction: ltr;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	overflow-x: auto;
+}
+code {
+	word-break: break-all;
+}
+
+/* Header */
+header {
+	display: flex;
+	gap: 1em .5em;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 1em;
+}
+.home-link {
+	font-size: 1em; /* 16px /16 */
+	font-weight: 700;
+	margin-right: 2em;
+}
+.home-link:link:not(:hover) {
+	text-decoration: none;
+}
+
+/* Nav */
+.nav {
+	display: flex;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.nav-item {
+	display: inline-block;
+	margin-right: 1em;
+}
+.nav-item a[href]:not(:hover) {
+	text-decoration: none;
+}
+.nav a[href][aria-current="page"] {
+	text-decoration: underline;
+}
+
+/* Posts list */
+.postlist {
+	list-style: none;
+	padding: 0;
+	padding-left: 1.5rem;
+}
+.postlist-item {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	counter-increment: start-from -1;
+	margin-bottom: 1em;
+}
+.postlist-item:before {
+	display: inline-block;
+	pointer-events: none;
+	content: "" counter(start-from, decimal-leading-zero) ". ";
+	line-height: 100%;
+	text-align: right;
+	margin-left: -1.5rem;
+}
+.postlist-date,
+.postlist-item:before {
+	font-size: 0.8125em; /* 13px /16 */
+	color: var(--color-gray-90);
+}
+.postlist-date {
+	word-spacing: -0.5px;
+}
+.postlist-link {
+	font-size: 1.1875em; /* 19px /16 */
+	font-weight: 700;
+	flex-basis: calc(100% - 1.5rem);
+	padding-left: .25em;
+	padding-right: .5em;
+	text-underline-position: from-font;
+	text-underline-offset: 0;
+	text-decoration-thickness: 1px;
+}
+.postlist-item-active .postlist-link {
+	font-weight: bold;
+}
+
+/* Tags */
+.post-tag {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	text-transform: capitalize;
+	font-style: italic;
+}
+.postlist-item > .post-tag {
+	align-self: center;
+}
+
+/* Tags list */
+.post-metadata {
+	display: inline-flex;
+	flex-wrap: wrap;
+	gap: .5em;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.post-metadata time {
+	margin-right: 1em;
+}
+
+/* Links page mostly via BenjaminEHowe/11ty-links */
+ul.links {
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+ul.links li {
+	text-align: center;
+}
+ul.links li a {
+    display: block;
+    text-decoration: none;
+	padding: 20px;
+	border: solid 0.5em var(--color-gray-90);
+	font-weight: bold;
+  }</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden">Skip to main content</a>
+
+		<header>
+			<a href="/" class="home-link"> <picture><source type="image/avif" srcset="/tAhTPXdpPU-16.avif"><source type="image/webp" srcset="/tAhTPXdpPU-16.webp"><img loading="lazy" decoding="async" src="/tAhTPXdpPU-16.png" alt="" role="presentation" height="16" width="16"></picture> Neat Systems</a>
+			<nav>
+				<h2 class="visually-hidden" id="top-level-navigation-menu">Top level navigation menu</h2>
+				<ul class="nav">
+					<li class="nav-item"><a href="/" aria-current="page">Home</a></li>
+					<li class="nav-item"><a href="/about/">About</a></li>
+					<li class="nav-item"><a href="/blog/">Blog</a></li>
+					<li class="nav-item"><a href="/links/">Links</a></li>
+					<li class="nav-item"><a href="/contact/">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="welcome-to-neat-systems"> Welcome to Neat Systems! </h1>
+<p> Neat Systems is a consultancy helping startups from Seed to C evaluate and optimize your systems to avoid letting growth get in the way of your goals. We focus on the interdisciplinary problems that arise as natural side effects of pursuing your funders' goals for you in those rounds. These problems often don't get solved because every affected team is overloaded with their own work, and instead we accept them as "growing pains." Accepting growing pains, however, reduces organizational and capital efficiency, and makes work less fun. Neat Systems was founded to support organizations with short-term capacity augmentation specifically focused on the interdisciplinary root causes of systemic issues slowing your organization down. </p> 
+<p>If you're a growth-stage organization looking to raise in the next three months, check out our <a href="/blog/">blog</a>, <a href="/contact/">contact us</a>, or <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ0l8wwk__O7t1icTZ5MJU7S4b7yssXide30lGwA6RTmj93ztrt_VAcdRk2HslCtcOI5K_zWTg4L" target="_blank">book a call</a> (external link opens in new tab).</p> 
+<p>If something on this website is useful to you, please let us know. As we develop our offerings, community feedback continues to play a huge role in the shape of the resources we provide.</p>
+
+<h2 id="when-can-neat-systems-help">When can Neat Systems help?</h2>
+<p> The best time to engage Neat Systems is as you're preparing to raise a Series A or Series B round, or just after raising when you're finalizing your growth strategy for the next round. We will work with you to determine key points of leverage for you to thrive in your next stage of growth. If you're in a heavily-regulated industry where process changes may require regulatory approval, like healthcare, it might make sense for us to talk around the time of your Seed round. If you're getting ready to raise a Series C and just feeling the onset of growing pains now, firstly congratulations! It might make sense for us to chat as well. </p>
+
+<p>No matter how large or small your organization is, all engagements start with us getting to know your organization. Neat Systems helps in a variety of ways tailored to your organization's mission and values, growth stage, and current pain points.
+Everything we do is tailored to your organization's needs and priorities, with a focus on freeing your teams' time to work on their specific goals.</p>
+<div ID="plans"><DIV CLASS="plan"> 
+        <p><strong>Seed Round</strong> </p>
+        <p>You might feel like:</p> <ul><li> I can&#39;t keep track of everything any more </li><li> Executives need to delegate more </li><li> I&#39;m overwhelmed — There are so many things to do and we&#39;re growing so quickly! </li></ul> <br>
+        <p>We can help you with:</p> <ul><li> Shared updates in a unified location </li><li> Task visibility that doesn&#39;t drag you out of your workflow </li><li> System adjustments for task-based visibility </li></ul> <br> 
+    </DIV><DIV CLASS="plan"> 
+        <p><strong>Series A</strong> </p>
+        <p>You might feel like:</p> <ul><li> Documents have ended up everywhere </li><li> Different teams use different tools, and not everybody has access </li><li> Some things have started to get lost in the rapid growth </li></ul> <br>
+        <p>We can help you with:</p> <ul><li> Data maps </li><li> Working agreements </li><li> Distributed ownership of documents </li></ul> <br> 
+    </DIV><DIV CLASS="plan"> 
+        <p><strong>Series B</strong> </p>
+        <p>You might feel like:</p> <ul><li> I don&#39;t know everyone at the company any more </li><li> I need some things from specialized teams, but not everything; I don&#39;t have time to filter through all their info </li><li> Cross-functional communication is getting hard </li></ul> <br>
+        <p>We can help you with:</p> <ul><li> Integrating workflows and systems </li><li> Self-documenting workflows </li><li> Clear communication of organization structure </li></ul> <br> 
+    </DIV></div>
+
+<h2 id="growing-a-nonprofit"> Growing a Nonprofit?</h2>
+<p>We understand that nonprofits experience many of the same inflection points in your growth cycle as for-profit startups, but that you may not have as many financial resources to navigate these challenging circumstances. Whether your growth comes from an increase in individual donations, a significant grant or bequest, or simply gradual expansion over time, we offer significant discounts to help you navigate organizational changes while keeping your program dollars directed towards your mission.</p>
+
+
+
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p> <em> Thanks for reading to the end! We'd love to <a href="/contact/">hear from you</a>. </em> </p>
+		</footer>
+
+		<!-- This page `/` was built on 2026-10-13T22:16:54.523Z -->
+		<script type="module" src="/dist/cC8wS6ZjFU.js"></script>
+	</body>
+</html>
