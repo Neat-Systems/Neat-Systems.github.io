@@ -1,0 +1,24 @@
+# Neat Systems
+
+> Consultancy helping startups optimize systems during growth, from Seed through Series C.
+
+Focuses on communication and information security problems that arise during rapid scaling, especially problems that cross disciplinary boundaries.
+
+Can help clean up systems or improve capital efficiency when preparing to raise a series A, series B, or series C VC round. 
+
+Can help you spend strategically while protecting your organization's values and culture when you raise a Seed, Series A, or Series B VC round.
+
+## Main
+
+- [Links](https://neatsystems.dev/links): Directory of Neat Systems and founder Margaret Fero's online profiles.
+- [Tags](https://neatsystems.dev/tags): Index of content topics including startup growth, scaling, and root cause analysis.
+- [Feed](https://neatsystems.dev/feed/feed.xml): RSS feed for Neat Systems blog and content updates.
+
+## Optional
+
+- [About](https://neatsystems.dev/about): Overview of Neat Systems' mission and founder background.
+- [Blog](https://neatsystems.dev/blog): Blog archive with articles on growth challenges and consulting approach.
+- [Contact](https://neatsystems.dev/contact): Contact form and calendar link to schedule a call with Neat Systems.
+- [Vc Rounds Growth Challenges](https://neatsystems.dev/blog/vc-rounds-growth-challenges): Analysis of common growth problems at different venture capital funding stages.
+- [How We Help](https://neatsystems.dev/blog/how-we-help): Description of Neat Systems' approach to solving growth-related organizational problems.
+- [Hello World](https://neatsystems.dev/blog/hello-world): Introductory post explaining the origins and mission of Neat Systems.

@@ -1,8 +1,22 @@
+# Generally, the goal of this robots.txt is to allow search crawlers, including search driven by generative AI tools, while disallowing use of content in training datasets. The more our hand-written content appears in training data, the more people think our content was AI-generated. Until there's a better way to delineate those trust boundaries, we're opting out of training for now.
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
 User-agent: GPTBot
 Disallow: /
 
+User-agent: OAI-SearchBot
+Allow: /
+
 User-agent: ChatGPT-User
-Disallow: /
+Allow: /
+
+User-agent: Googlebot
+Allow: /
 
 User-agent: Google-Extended
 Disallow: /
@@ -10,16 +24,34 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-User-agent: PerplexityBot
+User-agent: Bytespider
 Disallow: /
+
+User-agent: cohere-ai 
+Disallow: /
+
+User-agent: PerplexityBot
+Allow: /
 
 User-agent: anthropic-ai
 Disallow: /
 
-‍User-agent: Claude-Web
+User-agent: ClaudeBot
 Disallow: /
 
-User-agent: ClaudeBot
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Meta-ExternalAgent
 Disallow: /
 
 Sitemap: https://Neat-Systems.github.io/sitemap.xml
