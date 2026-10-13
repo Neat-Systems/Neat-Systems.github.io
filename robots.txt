@@ -1,3 +1,5 @@
+# Generally, the goal of this robots.txt is to allow search crawlers, including search driven by generative AI tools, while disallowing use of content in training datasets. The more our hand-written content appears in training data, the more people think our content was AI-generated. Until there's a better way to delineate those trust boundaries, we're opting out of training for now.
+
 User-agent: Bingbot
 Allow: /
 
