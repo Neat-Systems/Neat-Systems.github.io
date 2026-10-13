@@ -19,10 +19,13 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
-‍User-agent: Claude-Web
-Disallow: /
-
 User-agent: ClaudeBot
 Disallow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
 
 Sitemap: https://Neat-Systems.github.io/sitemap.xml
