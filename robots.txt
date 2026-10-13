@@ -37,4 +37,7 @@ Allow: /
 User-agent: Applebot-Extended
 Disallow: /
 
+User-agent: Meta-ExternalAgent
+Disallow: /
+
 Sitemap: https://Neat-Systems.github.io/sitemap.xml
