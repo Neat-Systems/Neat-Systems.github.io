@@ -31,4 +31,10 @@ Allow: /
 User-agent: Claude-User
 Allow: /
 
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
 Sitemap: https://Neat-Systems.github.io/sitemap.xml
